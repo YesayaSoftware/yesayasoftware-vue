@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="antialiased">
         <div class="flex bg-gray-100">
             <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
                 <div class="xl:max-w-lg xl:ml-auto">
@@ -37,6 +37,10 @@
 
             <div class="hidden lg:block lg:w-1/2 lg:relative">
                 <img src="img/yesaya-presentation.jpg" class="absolute inset-0 h-full w-full object-cover object-center" alt="Yesaya on Presentation">
+
+                <svg class="absolute inset-y-0 left-0 h-full w-16 h-full" viewBox="0 0 100 100" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polygon class="text-gray-100" fill="currentColor" points="0,0 0,100 100,0" />
+                </svg>
             </div>
         </div>
 
